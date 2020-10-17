@@ -1,0 +1,69 @@
+Post http://localhost:5000/userinfo/add
+Content-type : application/json
+
+{
+    "username" : "Cart",
+    "email" : "cart@gmail.com",
+    "password" : "password123"
+}
+
+####
+
+Post https://pickbooks.herokuapp.com/userinfo/getUserInfo
+Content-type : application/json
+
+{
+    "username" : "Hello",
+    "password" : "password123"
+}
+
+####
+
+Post http://localhost:5000/usercart/userCartAdd
+Content-type : application/json
+
+{
+    "username" : "Hello",
+    "booktype" : "Adventure",
+    "bookname" : "Sister lies"
+}
+
+####
+
+Post http://localhost:5000/usercart/userCartGet
+Content-type : application/json
+
+{
+    "username" : "Hello"
+}
+
+####
+
+Post http://localhost:5000/usercart/userCartDelete
+Content-type : application/json
+
+{
+    "username" : "Hello",
+    "bookname" : "Treasure Iland"
+}
+
+####
+
+Post http://localhost:5000/userinfo/getUser
+Content-type : application/json
+
+{
+    "username" : "Hello",
+    "email" : "hello@gmail.com"
+}
+
+####
+
+Post http://localhost:5000/userinfo/updatePassword
+Content-type : application/json
+
+{
+    "username" : "Hello",
+    "email" : "hello@gmail.com",
+    "password" : "password123"
+}
