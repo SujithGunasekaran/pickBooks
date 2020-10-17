@@ -48,6 +48,4 @@
  
  ### `npm start`
  
- # npm start server files
  
- -> You able to see the complete website both client and server will start running
