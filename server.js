@@ -16,6 +16,7 @@ app.listen(PORT, ()=>{
 })
 
 app.use(express.json());
+//Remove or comment line no 20 if you delete public folder in server
 app.use(express.static("public"));
 // app.use(express.urlencoded({extended:false}))
 app.use(cors());
@@ -28,6 +29,7 @@ connection.once("open",()=>{
     console.log("Mongodb Atlas Connected Successfully");
 })
 
+// Remove or Comment line no from 33 to 35 if you delete public folder in server 
 app.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
