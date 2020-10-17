@@ -1,0 +1,166 @@
+{
+    "BookType" : [
+        {
+            "Title":"Special",
+            "mainID":"1",
+            "BookInfo" : [
+                {
+                    "id":"1-1",
+                    "Imgsrc": "/Image/adventure3.png",
+                    "BookName":"Sister lies",
+                    "DefaultRating":"4.3",
+                    "DiscountPrice":"900",
+                    "ActualPrice":"999",
+                    "Available":"In Stock",
+                    "Discription":"The USA Today and Kindle Top #25 Bestseller ‘A real tear-jerker’ THE SUN ‘A stunning read’ MIRANDA DICKINSON For a decade, Hannah’s life has been pretty close to perfect – she has a great job, she’s married to Mark",
+                    "Author":"S. D. Robertson",
+                    "Published":"21 March 2019"
+                },
+                {
+                    "id":"1-2",
+                    "Imgsrc": "/Image/economic2.png",
+                    "BookName":"The Warren Buffet Way Third Edition",
+                    "DefaultRating":"4.6",
+                    "DiscountPrice":"699",
+                    "ActualPrice":"739",
+                    "Available":"In Stock",
+                    "Discription":"The first two editions of The Warren Buffett Way gave investors their first in-depth look at the innovative investment and business strategies behind the spectacular success of living legend Warren E. Buffett.",
+                    "Author":"Robert Hagstrom",
+                    "Published":"12 November 2004"
+                },
+                {
+                    "id":"1-3",
+                    "Imgsrc": "/Image/economic4.jpg",
+                    "BookName":"Raghuram G. Rajan The Third Piller",
+                    "DefaultRating":"4.8",
+                    "DiscountPrice":"477",
+                    "ActualPrice":"529",
+                    "Available":"In Stock",
+                    "Discription":"SHORTLISTED FOR THE FINANCIAL TIMES AND MCKINSEY BUSINESS BOOK OF THE YEAR AWARD 2019 From one of the most important economic thinkers of our time, a brilliant and far-seeing analysis of the current populist backlash against globalization.",
+                    "Author":"Raghuram Rajan",
+                    "Published":"18 February 2019"
+                },
+                {
+                    "id":"1-4",
+                    "Imgsrc": "/Image/children4.jpg",
+                    "BookName":"The Tiger Who Came to Tea",
+                    "DefaultRating":"4.6",
+                    "DiscountPrice":"259",
+                    "ActualPrice":"280",
+                    "Available":"In Stock",
+                    "Discription":"The Tiger Who Came to Tea is a short children's story, first published by HarperCollins in 1968, written and illustrated by Judith Kerr. The book concerns a girl called Sophie, her mother, and an anthropomorphised tiger who interrupts their afternoon tea.",
+                    "Author":"Judith Kerr",
+                    "Published":"1968"
+                }
+            ]
+        },
+        {
+            "Title":"Latest",
+            "mainID":"2",
+            "BookInfo" : [
+                {
+                    "id":"2-1",
+                    "Imgsrc": "/Image/children5.png",
+                    "BookName":"The Secret Commonwealth",
+                    "DefaultRating":"4.1",
+                    "DiscountPrice":"599",
+                    "ActualPrice":"671",
+                    "Available":"In Stock",
+                    "Discription":"The Secret Commonwealth is a fantasy novel by Philip Pullman; it is the second volume of his planned trilogy, The Book of Dust.",
+                    "Author":"Philip Pullman",
+                    "Published":"3 October 2019"
+                },
+                {
+                    "id":"2-2",
+                    "Imgsrc": "/Image/history3.jpg",
+                    "BookName":"The Patient Assassin",
+                    "DefaultRating":"4.2",
+                    "DiscountPrice":"399",
+                    "ActualPrice":"425",
+                    "Available":"In Stock",
+                    "Discription":"The Patient Assassin, A True Tale of Massacre, Revenge and the Raj is a 2019 book based on the life of Indian revolutionary Udham Singh. Authored by Anita Anand, it was published by Simon and Schuster UK in April 2019 to coincide with the 100th anniversary of the Jallianwalla Bagh Massacre in Amritsar, India..",
+                    "Author":"Anita Anand",
+                    "Published":"4 April 2019"
+                },
+                {
+                    "id":"2-3",
+                    "Imgsrc": "/Image/technology2.jpg",
+                    "BookName":"The Internet in Everything",
+                    "DefaultRating":"5",
+                    "DiscountPrice":"2399",
+                    "ActualPrice":"2480",
+                    "Available":"In Stock",
+                    "Discription":"A compelling argument that the Internet of things threatens human rights and security and that suggests policy prescriptions to protect our future The Internet has leapt from human-facing display screens into the material objects all around us",
+                    "Author":"Sean M. Carroll",
+                    "Published":"7 January 2020"
+                },
+                {
+                    "id":"2-4",
+                    "Imgsrc": "/Image/technology1.jpg",
+                    "BookName":"The Age of AI",
+                    "DefaultRating":"4.6",
+                    "DiscountPrice":"1599",
+                    "ActualPrice":"1623",
+                    "Available":"In Stock",
+                    "Discription":"Are robots going to take my job? How are smartphones affecting my kids? Do I need to worry about privacy when I get online or ask Siri for directions? .",
+                    "Author":"Jason Thacker",
+                    "Published":"3 March 2020"
+                }
+            ]
+        },
+        {
+            "Title":"Top",
+            "mainID":"3",
+            "BookInfo" : [
+                {
+                    "id":"3-1",
+                    "Imgsrc": "/Image/technology4.jpg",
+                    "BookName":"T‑Minus AI",
+                    "DefaultRating":"4.8",
+                    "DiscountPrice":"2399",
+                    "ActualPrice":"2497",
+                    "Available":"In Stock",
+                    "Discription":"Late in 2017, the global significance of the conversation about artificial intelligence (AI) changed forever. China put the world on alert when it released a plan to dominate all aspects of AI across the planet. ...",
+                    "Author":"Michael Kanaan",
+                    "Published":"2020"
+                },
+                {
+                    "id":"3-2",
+                    "Imgsrc": "/Image/technology2.jpg",
+                    "BookName":"The Internet in Everything",
+                    "DefaultRating":"5",
+                    "DiscountPrice":"2399",
+                    "ActualPrice":"2480",
+                    "Available":"In Stock",
+                    "Discription":"A compelling argument that the Internet of things threatens human rights and security and that suggests policy prescriptions to protect our future The Internet has leapt from human-facing display screens into the material objects all around us",
+                    "Author":"Sean M. Carroll",
+                    "Published":"7 January 2020"
+                },
+                {
+                    "id":"3-3",
+                    "Imgsrc": "/Image/history6.jpg",
+                    "BookName":"Midnight in Chernobyl",
+                    "DefaultRating":"4.8",
+                    "DiscountPrice":"1929",
+                    "ActualPrice":"1999",
+                    "Available":"In Stock",
+                    "Discription":"A New York Times Best Book of the Year A Time Best Book of the Year A Kirkus Reviews Best Nonfiction Book of the Year 2020 Andrew Carnegie Medals for Excellence Winner From journalist Adam Higginbotham, ",
+                    "Author":"Adam Higginbotham",
+                    "Published":"5 February 2019"
+                },
+                {
+                    "id":"3-4",
+                    "Imgsrc": "/Image/history2.jpg",
+                    "BookName":"India in the Persianate Age",
+                    "DefaultRating":"4.6",
+                    "DiscountPrice":"629",
+                    "ActualPrice":"753",
+                    "Available":"In Stock",
+                    "Discription":"Protected by vast mountains and seas, the Indian subcontinent might seem a nearly complete and self-contained world with its own religions, philosophies, and social systems...",
+                    "Author":"Richard Maxwell Eaton",
+                    "Published":"2019"
+                }
+            ]
+        }
+    ]
+}

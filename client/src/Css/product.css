@@ -1,0 +1,452 @@
+/* Product Breadcrum Head CSS */
+
+.product-head-bread
+{
+    overflow: hidden;
+}
+.product-bread-heading
+{
+    padding-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+}
+@media(max-width:440px)
+{
+    .product-bread-heading{padding-top:6px;}
+}
+.product-bread-para-display
+{
+    padding-top: 20px;
+    display : flex;
+    align-items: left;
+    justify-content: left;
+}
+.product-bread-icon
+{
+    color : rgb(73, 71, 71);
+}
+.product-bread-icon2
+{
+    padding-left: 10px;
+    color : rgb(73, 71, 71);
+}
+.product-bread-para
+{
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.product-bread-para a
+{
+    display : inline-block;
+    color : black;
+}
+.product-bread-para a:hover
+{
+    text-decoration: none;
+    color: #335eea;
+}
+.product-bread-para a:focus
+{
+    text-decoration: none;
+}
+.product-bread-split
+{
+    padding-top: 2px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(194, 189, 189);
+}
+.product-bread-para2
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#335eea;
+}
+
+
+
+/* Product Display CSS */
+.main-product
+{
+    margin-top: 70px;
+}
+.product-image
+{
+    width : 100%;
+    height : 500px;
+    border: 1px solid rgb(255, 248, 248);
+}
+.product-type-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color : rgb(110, 107, 107);
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.product-book-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 27px;
+    color : rgb(51, 51, 51);
+    padding-top: 7px;
+    padding-left: 50px;
+}
+.product-book-rating-display
+{
+    display : flex;
+}
+.product-book-rating
+{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.product-book-rating-name
+{
+    margin-top : 9.6px;
+    margin-left : 15px;
+    padding-top : 2px;
+    width : 35px;
+    height : 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(29, 73, 218,0.1);
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+.product-book-price
+{
+    padding-left: 50px;
+    padding-top: 0px;
+    /* color:#33AFE0; */
+    color : #335eea;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-discount-price
+{
+    padding-left: 50px;
+    color:#5f6161;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-available
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(122, 119, 119);
+    padding-top: 4px;
+    padding-left: 50px;
+}
+.product-hr
+{
+    margin-left: 50px;
+}
+.product-book-discription-heading
+{
+    color : rgb(44, 43, 43);
+    font-size: 15px;
+}
+.product-book-discription
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(122, 119, 119);
+    padding-top: 0px;
+    padding-left: 50px;
+    line-height: 180%;
+}
+.product-book-author-heading
+{
+    color : rgb(44, 43, 43);
+    font-size: 15px;
+}
+.product-book-author
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(122, 119, 119);
+    padding-top: 0px;
+    padding-left: 50px;
+    line-height: 180%;
+}
+.product-book-published-heading
+{
+    color : rgb(44, 43, 43);
+    font-size: 15px;
+}
+.product-book-published
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(122, 119, 119);
+    padding-top: 0px;
+    padding-left: 50px;
+    line-height: 180%;
+}
+.product-item
+{
+    display:flex;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+.product-book-quantity-heading
+{
+    color : rgb(44, 43, 43);
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-quantity-Error
+{
+    color : orangered;
+    padding-top: 3px;
+    padding-left: 6px;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-quantity-icon
+{
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 4px;
+    color : rgb(112, 109, 109);
+    font-size: 13px;
+}
+.product-book-quantity-icon:hover
+{
+    cursor: pointer;
+    color : #335eea;
+}
+.product-book-quantity-count
+{
+    margin-left: 15px;
+    margin-top: -2px;
+    height : 30px;
+    border : 1px solid rgb(196, 194, 194);
+    width : 60px;
+    padding : 4px 0px;
+    padding-left : 24px;
+}
+.product-item2
+{
+    display:flex;
+    padding-top: 18px;
+    padding-left: 50px;
+}
+.product-book-cart
+{
+    color : rgb(44, 43, 43);
+    font-size: 14px;
+    padding-right: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-icon
+{
+    color : rgb(44, 43, 43);
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-icon:hover
+{
+    cursor: pointer;
+    color : #335eea;
+}
+.product-book-download
+{
+    color : rgb(44, 43, 43);
+    font-size: 14px;
+    padding-left: 27px;
+    padding-right: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-book-buy-btn
+{
+    margin-left: 50px;
+    margin-top: 25px;
+    width : 150px;
+    height : 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    background-color: #335eea;
+    color : whitesmoke;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.product-book-buy-btn a
+{
+    display: inline-block;
+    color : whitesmoke;
+}
+.product-book-buy-btn a:hover
+{
+    text-decoration: none;
+    color : whitesmoke;
+}
+.product-book-buy-btn:hover
+{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #2992bb;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.product-book-login-Error
+{
+    color : orangered;
+    padding-top: 3px;
+    padding-left: 50px;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width:440px)
+{
+    .main-product{margin-top: 100px;}
+    .product-image{height : 350px}
+    .product-type-name{padding-top: 30px;padding-left: 5px;}
+    .product-book-name{padding-left: 5px;}
+    .product-book-rating{padding-left: 5px;}
+    .product-book-price{padding-left: 5px;}
+    .product-book-discount-price{padding-left: 5px;}
+    .product-book-available{padding-left: 5px;}
+    .product-hr{margin-left: 5px;}
+    .product-book-discription{padding-left: 5px;}
+    .product-book-author{padding-left: 5px;}
+    .product-book-published{padding-left: 5px;}
+    .product-item{padding-left: 5px;}
+    .product-item2{padding-left: 5px;}
+    .product-book-buy-btn{margin-left: 5px;}
+    .product-book-login-Error{padding-left: 5px;}
+}
+
+/* Member Discount Css */
+
+.product-member-back-color
+{
+    margin-top : 20px;
+    background-color: #1b2a4e;
+    /* border-radius: 23px 86px; */
+    border-radius: 100%/0px 0px 120px 120px;
+}
+@media(max-width:440px)
+{
+    .product-member-back-color{border-radius: 100%/0px 0px 75px 75px;}
+}
+.product-member-heading
+{
+    padding-top: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color : whitesmoke;
+}
+.product-member-subheading
+{
+    padding-top: 22px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color : white;
+}
+.product-member-para
+{
+    padding-top: 26px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color : #8db0f5;
+}
+.product-member-text
+{
+    margin-top: 45px;
+    display: flex;  
+}
+.product-member-textfiled
+{
+    height : 50px;
+    width: 100%;
+    border:2px solid rgb(228, 225, 225);
+    display: inline-block;
+    margin : 0 auto;
+    border-radius : 4px;
+    padding-left: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+.product-member-textfiled:hover
+{
+    border-color: #42ba96;
+}
+.product-member-textfiled:focus
+{
+    border-color: #42ba96;
+    outline : none;
+}
+.product-member-btn
+{
+    margin-left: 5px;
+    border-radius: 4px;
+    border : none;
+    background-color: #42ba96;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color : white;
+    width : 180px;
+    height : 50px;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+
+}
+.product-member-btn:hover
+{
+    background-color: #359b7c;
+    color : white;
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    transition: all 0.9s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+
+.product-member-hr
+{
+    margin-top: 80px;
+}
+
+@media (max-width:440px)
+{
+    .product-member-btn{width : 100px}
+}
+
+
+/* Related Product css */
+
+.product-related-name
+{
+    padding-top: 30px;
+    color : rgb(44, 43, 43);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.product-related-description
+{
+    padding-top: 8px;
+    color : rgb(44, 43, 43);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.product-cart-hover:hover
+{
+    text-decoration : none;
+}

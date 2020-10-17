@@ -1,0 +1,305 @@
+.profile-main
+{
+    margin-top:100px;
+}
+
+/* Profile Bread css */
+
+.profile-head-bread
+{
+    overflow: hidden;
+}
+.profile-bread-heading
+{
+    padding-top: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+}
+@media(max-width:440px)
+{
+    .profile-bread-heading{padding-top:6px;}
+}
+.profile-bread-para-display
+{
+    padding-top: 10px;
+    display : flex;
+    align-items: left;
+    justify-content: left;
+}
+.profile-bread-icon
+{
+    color : rgb(73, 71, 71);
+}
+.profile-bread-icon2
+{
+    padding-left: 10px;
+    color : rgb(73, 71, 71);
+}
+.profile-bread-para
+{
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.profile-bread-para a
+{
+    display : inline-block;
+    color : black;
+}
+.profile-bread-para a:hover
+{
+    text-decoration: none;
+    color: #335eea;
+}
+.profile-bread-para a:focus
+{
+    text-decoration: none;
+}
+.profile-bread-split
+{
+    padding-top: 2px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(194, 189, 189);
+}
+.profile-bread-para2
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#335eea;
+}
+
+/* profile left side css */
+
+.profile-left-main-container
+{
+    border-radius: 10px; 
+    margin-top : 30px;
+    box-shadow: 0 3px 4px rgba(66, 4, 117, 0.16), 0 3px 4px rgba(23, 6, 117, 0.23);  
+    margin-bottom: 30px;
+}
+.profile-background
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(21, 11, 59);
+}
+.profile-name
+{
+    font-size: 17px;
+    color : white;
+    padding-top:80px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.profile-detail-heading
+{
+    padding-top: 17px;
+    padding-left: 10px;
+    color : rgb(27, 27, 27);
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.profile-detail-label-name
+{
+    padding-top: 20px;
+    padding-left: 12px;
+    color : rgb(143, 140, 140);
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.profile-detail-display
+{
+    margin-left: 12px;
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 1px solid rgb(212, 210, 210);
+    width : 95%;
+}
+.profile-detail-label-user-name
+{
+    color : rgb(61, 61, 61);
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* profile tab css */
+
+.profile-tab-container
+{
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 3px 4px rgba(66, 4, 117, 0.16), 0 3px 4px rgba(23, 6, 117, 0.23);  
+    border-radius: 7px;
+}
+
+.profile-tab-nav
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: rgb(54, 53, 53);
+    height : 50px;
+    padding-top : 10px !important;
+    width : 280px;
+    text-align: center;
+}
+.profile-tab-nav-active
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    height : 50px;
+    width : 280px;
+    padding-top : 10px !important;
+    text-align: center;
+    color: rgb(54, 53, 53);
+    border-bottom: 3px solid rgb(21, 11, 59) !important; 
+}
+.profile-tab-nav:hover
+{
+    cursor: pointer !important;
+    background-color: white !important;
+    background-color: rgba(51,94,234,.1) !important;
+    color : rgb(21, 11, 59);
+}
+.profile-tab-nav-active:hover
+{
+    cursor: pointer !important;
+    background-color: white !important;
+    background-color: rgba(51,94,234,.1) !important;
+    color : rgb(21, 11, 59);
+}
+.profile-contact-container
+{
+    width : 100%;
+    margin-top : 30px;
+    margin-bottom: 40px;
+}
+.profile-contact-heading
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.profile-input-label
+{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    color : #472ECD;
+}
+.profile-input-field
+{
+    margin-top : 10px;
+    width:90%;
+    margin-left: 20px;
+    height : 40px;
+    border : none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(214, 211, 211);
+    color : rgb(21, 11, 59);
+}
+.profile-input-field::placeholder
+{
+    font-family: 'Nunito', sans-serif;
+    color : rgb(150, 148, 148);
+    font-size: 12px;
+}
+.profile-input-field:hover
+{
+    border-bottom: 2px solid rgb(21, 11, 59);
+}
+.profile-input-field:focus
+{
+    outline: none;
+    border-bottom: 2px solid rgb(21, 11, 59);
+}
+.profile-input-field2
+{
+    width:90%;
+    margin-top : 8px;
+    margin-left: 20px;
+    height : 40px;
+    border : none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(214, 211, 211);
+    color : rgb(21, 11, 59);
+}
+.profile-input-field2::placeholder
+{
+    font-family: 'Nunito', sans-serif;
+    color : rgb(150, 148, 148);
+    font-size: 12px;
+}
+.profile-input-field2:hover
+{
+    border-bottom: 2px solid rgb(21, 11, 59);
+}
+.profile-input-field2:focus
+{
+    outline: none;
+    border-bottom: 2px solid rgb(21, 11, 59);
+}
+.profile-update-btn
+{
+    margin-top : 40px;
+    margin-bottom: 20px;
+    float : right;
+    border : none;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    width : 200px;
+    height : 45px;
+    background-color: rgb(21, 11, 59);
+    color : white;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.profile-update-btn:hover
+{
+    color: whitesmoke;
+    background-color: rgb(39, 25, 97);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    box-shadow: 0 3px 10px rgba(66, 4, 117, 0.16), 0 3px 10px rgba(23, 6, 117, 0.23);
+}
+
+/* profile cart css */
+
+.profile-cart-heading
+{
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(8, 8, 90);
+    padding-left: 10px;
+}
+.profile-cart-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(8, 8, 90);
+    padding-top : 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.profile-cart-name a 
+{
+    color : rgb(117, 117, 168);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    padding-left: 8px;
+}

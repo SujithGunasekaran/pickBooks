@@ -1,0 +1,214 @@
+.payment-shipping-icon-combine
+{
+    margin-top: 25px;
+    display: flex;
+}
+.payment-shipping-icon-combine .payment-shipping-logo
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.payment-shipping-icon-combine .payment-shipping-logo2
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    margin-left : 12px;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.payment-shipping-icon-combine .payment-shipping-name-image
+{
+    padding-top: 4px;
+    padding-left: 9px;
+    font-size: 15px;
+    color : #506690;
+    font-family: 'Nunito', sans-serif;
+}
+@media(max-width:440px)
+{
+    .payment-shipping-icon-combine .payment-shipping-logo
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .payment-shipping-icon-combine .payment-shipping-logo2
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .payment-shipping-icon-combine .payment-shipping-name-image
+    {
+        padding-top: 4px;
+    }
+}
+.payment-shipping-icon-right
+{
+    padding-top : 4px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #335eea;
+    font-weight: bolder;
+}
+
+/* Payment Information css */
+
+.payment-shipping-container
+{
+    margin-top : 40px;
+    border-radius: 6px;
+    background-color: #253447;
+    box-shadow: 0 3px 4px rgba(66, 4, 117, 0.16), 0 3px 4px rgba(23, 6, 117, 0.23);
+}
+.payment-shipping-price-details-conatiner-hr
+{
+    border-top : 1px solid #3e4b57;
+    width : 95%;
+}
+.shipping-price-details-heading
+{
+    font-size: 16px;
+    word-spacing: 3px;
+    padding-top : 15px;
+    padding-left : 20px;
+    color : white;
+    font-family: 'Nunito', sans-serif;
+}
+.payment-shipping-main-name-display
+{
+    display : flex;
+}
+.payment-shipping-main-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top : 10px;
+    padding-bottom: 20px;
+    width : 120px;
+    color : #91cde9;
+}
+.payment-shipping-sub-name
+{
+    color : #91cde9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top : 4px;
+    padding-bottom: 8px;
+    line-height: 200%;
+    word-spacing: 3px;
+}
+
+/* order summary css */
+
+.order-summary-container
+{
+    margin-top: 50px;
+    background-color: white;
+}
+.order-summary-heading
+{
+    font-size: 16px;
+    padding-top : 40px;
+    padding-left : 5px;
+    color : #4a4b4d;
+    word-spacing: 4px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.order-summary-bookdetails-display
+{
+    display: flex;
+}
+.order-summary-booklist-name
+{
+    font-family: 'Nunito', sans-serif;
+    width : 45%;
+    color : #335eea;
+    font-size: 16px;
+    padding-top : 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+.order-summary-booklist-name-details
+{
+    margin-left: auto;
+    font-family: 'Nunito', sans-serif;
+    color : #506690;
+    font-size: 16px;
+    padding-top : 15px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+/* Book image , Book Info */
+
+.order-summary-book-container
+{
+    margin-top : 30px;
+    width : 100%;
+    display : flex;
+    border : 1px solid rgb(238, 235, 235);
+}
+.order-summary-book-container:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+@media(max-width:440px)
+{
+    .shipping-book-container{margin-top : 90px;margin-left: 7px;}
+}
+.order-summary-book-image
+{
+    width : 155px;
+    height : 155px;
+}
+.order-summary-book-name-display
+{
+    flex-direction: row;
+}
+.order-summary-book-type
+{
+    font-family: 'Nunito', sans-serif;
+    color : #506690;
+    padding-top : 10px;
+    padding-left : 20px;
+    font-size: 15px;
+}
+.order-summary-book-name
+{
+    font-family: 'Nunito', sans-serif;
+    color : #506690;
+    padding-top : 15px;
+    padding-left : 20px;
+    font-size: 16px;
+}
+.order-summary-book-rating
+{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.order-summary-book-price
+{
+    color : #506690;
+    padding-top : 0px;
+    padding-left : 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}

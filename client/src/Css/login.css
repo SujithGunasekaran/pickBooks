@@ -1,0 +1,191 @@
+.login-main
+{
+    margin-top:0px;
+}
+.login-column-background
+{
+    background-color: rgb(250, 251, 253);
+}
+.login-container
+{
+    margin-top:70px;
+    width : 100%;
+}
+.login-icon-combine
+{
+    padding-top: 40px;
+    display: flex;
+}
+.login-icon-combine .login-logo
+{
+    width : 8%;
+    height : 40px;
+    border-radius: 50%;
+    background-color:#335eea;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.login-icon-combine .login-name-image
+{
+    padding-top: 9.6px;
+    padding-left: 9px;
+    font-size: 18px;
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+}
+.login-left-heading
+{
+    padding-left: 6px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    color : rgb(54, 53, 53);
+    padding-top : 23px;
+}
+.login-left-subheading
+{
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color : rgb(78, 78, 78);
+    padding-top : 16px;
+}
+.login-left-image
+{
+    margin-top:35px;
+    margin-left : -60px;
+}
+@media(max-width:1000px)
+{
+    .login-left-image{display: none;}
+}
+.login-heading
+{    
+    padding-top: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color : rgb(66, 66, 66);
+}
+.login-para
+{
+    padding-top: 18px;
+    font-family: 'Nunito', sans-serif;
+    color : rgb(177, 173, 173);
+    font-size: 14px;
+    text-align: center;
+}
+.login-hr
+{
+    border-top : 5px solid #335eea;
+    width : 25%;
+}
+.login-input-label
+{
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 13px;
+    font-size: 17px;
+}
+.login-input
+{
+    margin-top : 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    height : 47px;
+    width : 95%;
+    color : rgb(19, 12, 59); 
+    font-size: 13px;
+    border : none;
+    border-radius: 6px;
+    border: 2px solid rgb(212, 209, 209);
+    font-family: 'Nunito', sans-serif;
+}
+.login-input::placeholder
+{
+    color : rgb(139, 137, 137);
+}
+.login-input:focus
+{
+    outline : none;
+    border: 2px solid #335eea;
+}
+@media(max-width : 440px)
+{
+    .login-heading{text-align: left;padding-left: 10px;}
+    .login-hr{margin : 0;margin-top:8px;margin-left: 13px;margin-bottom: 25px;}
+    .login-container{margin-top : 40px}
+}
+.login-forgot-name
+{
+    padding-top : 10px;
+    padding-right:17px;
+    text-align : right;
+    font-family: 'Nunito', sans-serif;
+    color : rgb(199, 193, 193); 
+}
+.login-forgot-name a
+{
+    display:inline-block;
+    color : #335eea; 
+}
+.login-forgot-name a:hover
+{
+    color : #335eea;
+}
+.login-btn
+{
+    margin-top: 30px;
+    height : 40px;
+    border : none;
+    border-radius: 10px;
+    width : 95%;
+    margin-left : 10px;
+    background-color: #335eea;
+    color : whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.login-btn:hover
+{
+    outline : none;
+    background-color:#118bbb;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.login-btn:focus
+{
+    outline : none;
+}
+.login-signup-account
+{
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(90, 88, 88);
+    text-align: center;
+}
+.login-signup-account a
+{
+    display: inline-block;
+    color : #335eea;
+}
+.login-input-error
+{
+	margin-top: 4px;
+	height : 10px;
+	width : 355px;
+	margin-left: 10px;
+	color : rgb(238, 93, 93);
+    font-size: 11px;
+    padding-left: 3px;
+}
+.hideme-login
+{
+    color : rgb(238, 93, 93);
+}

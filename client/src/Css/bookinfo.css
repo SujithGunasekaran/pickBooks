@@ -1,0 +1,372 @@
+.book-card
+{
+    margin-top: 30px;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    animation: fadeInAnimation ease 1s; 
+    /* animation-iteration-count: 1;  */
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+.book-card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.book-card a:hover
+{
+    text-decoration: none;
+}
+.book-card a:focus
+{
+    text-decoration: none;
+}
+.book-card-image
+{
+    width:100%;
+    height : 208px;
+}
+@media (max-width:440px)
+{
+    .book-card-image{height: 250px;} 
+}
+.book-card-name
+{
+    margin-top: 6px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    color : #583e32;
+    font-size: 17px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+.book-card-rating-display
+{
+    display : flex;
+}
+.book-card-rating
+{
+    font-family: 'Nunito', sans-serif;
+    color : grey;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.book-card-rating-name
+{
+    margin-top : 8px;
+    margin-left : 15px;
+    padding-top : 2px;
+    width : 35px;
+    height : 20px;
+    border-radius: 4px;
+    text-align: center;
+    /* background-color: rgb(3, 100, 3); */
+    /* color : white; */
+    background-color: rgb(29, 73, 218,0.1);
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+.book-card-price
+{
+    padding-left: 20px;
+    padding-top: 0px;
+    color: #00bfc5;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.book-card-strike
+{
+    padding-left: 10px;
+    color : grey;
+    font-size: 16px;
+    font-weight: normal;
+}
+.book-card:hover .book-card-price
+{
+    text-decoration: none;
+}
+.book-card-bottom
+{
+    display: flex;
+}
+.book-card-buy-btn
+{
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 90px;
+    background-color: rgb(53, 52, 52);
+    color : whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.book-card-buy-btn:hover
+{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #33AFE0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.book-card-buy-btn:focus
+{
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #33AFE0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.book-card-buy-btn a
+{
+    display: block;
+    color : whitesmoke;
+    text-decoration: none;
+}
+.book-card-cart
+{
+    padding-top: 21px;
+    padding-left: 20px;
+    color : rgb(53, 52, 52);
+    font-size: 22px;
+}
+.book-card-cart:hover
+{
+    cursor: pointer;
+    color:#33AFE0;
+}
+.book-card-dropdown
+{
+    font-family: 'Nunito', sans-serif;
+    margin-top : -10px;
+    margin-left: 15px;
+    background-color: rgba(51,94,234,.1);
+    border : none;
+    color : #335eea;
+    font-size : 13px;
+}
+.book-card-dropdown:hover
+{
+    background-color: #335eea;
+    color : whitesmoke;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.book-card-dropdown:focus
+{
+    outline:none;
+}
+.book-card-dropdown-info
+{
+    width : 90%;
+    padding-top : 15px;
+    padding-left : 9px;
+    margin-left: 16px;
+    margin-top : 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f1f4f8;
+}
+.book-card-dropdown-name
+{
+    padding-top: 10px;
+}
+.book-span-name1
+{
+    color : #335eea;
+}
+.book-span-name2
+{
+    color : #506690;
+}
+.book-card-close-btn
+{
+    border : none;
+    width : 70px;
+    height : 30px;
+    border-radius: 5px;
+    background-color: rgb(231, 74, 46);
+    color : whitesmoke;
+}
+.book-card-close-btn:focus
+{
+    outline : none;
+}
+
+/* Book info 1*1 grid view */
+
+.bookinfo-one-book-card
+{
+    margin-top: 50px;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    width:100%;
+    animation: fadeInAnimation cubic-bezier(0.645, 0.045, 0.355, 1) 1s; 
+    /* animation-iteration-count: 1;  */
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+.bookinfo-one-book-card a:hover
+{
+    text-decoration : none
+}
+.bookinfo-one-book-card a:focus
+{
+    text-decoration : none
+}
+.bookinfo-one-book-card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.bookinfo-one-book-card-display
+{
+    display : flex;
+}
+.bookinfo-one-book-card-hr
+{
+    margin-left : 40px;
+    width : 90%;
+}
+/* .bookinfo-one-book-info
+{
+    display : none;
+    height : 400px;
+}
+.bookinfo-one-book-card:hover .bookinfo-one-book-info1:hover + .bookinfo-one-book-info
+{
+    display : block;
+} */
+.bookinfo-one-book-img
+{
+    height : 255px;
+    width : 255px;
+}
+
+.bookinfo-one-book-card-info-display
+{
+    flex-direction: row;
+    width : 100%;
+}
+.bookinfo-one-book-name
+{
+    font-family: 'Nunito', sans-serif;  
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 16px;
+    color : #506690;
+}
+
+.bookinfo-one-book-rating-display
+{
+    display : flex;
+}
+.bookinfo-one-book-rating
+{
+    padding-left: 37px;
+    padding-top: 15px;
+}
+.bookinfo-one-book-rating-name
+{
+    margin-top : 14px;
+    margin-left : 15px;
+    padding-top : 2px;
+    width : 35px;
+    height : 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(29, 73, 218,0.1);
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+.bookinfo-one-book-card-price
+{
+    padding-left: 42px;
+    margin-top:-7px;
+    padding-top: 0px;
+    color: #00bfc5;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.bookinfo-one-book-card-strike
+{
+    padding-left: 10px;
+    color : grey;
+    font-size: 15px;
+    font-weight: normal;
+}
+.bookinfo-one-book-card-author-display
+{
+    padding-top : 0px;
+    padding-left: 45px;
+    display : flex;
+}
+.bookinfo-one-book-card-author-name
+{
+    margin-top : -5px;
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+.bookinfo-one-book-card-author-subname
+{
+    margin-top : -5px;
+    padding-left : 10px;
+    color : #506690;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+.bookinfo-one-book-card-author-name2
+{
+    padding-top : 10px;
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+.bookinfo-one-book-card-author-subname2
+{
+    padding-top : 10px;
+    padding-left: 15px;
+    color : #506690;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+@media(max-width:440px)
+{
+    .bookinfo-one-book-img
+    {
+        margin-top : 60px;
+        height : 150px;
+        width : 150px;
+    }
+    .bookinfo-one-book-card-hr{margin-left: 10px;}
+    .bookinfo-one-book-name{padding-left: 10px;}
+    .bookinfo-one-book-rating{padding-left: 10px;}
+    .bookinfo-one-book-card-price{padding-left: 10px;}
+    .bookinfo-one-book-card-author-display{padding-left: 10px;}
+}

@@ -1,0 +1,104 @@
+.latest-book-row-head
+{
+    padding-top : 5px;
+    padding-left: 4px;
+    margin-top: 110px;
+    font-family: 'Nunito', sans-serif;  
+    font-size: 22px;
+    height : 40px;
+    background-color: rgba(51,94,234,.1);
+    border-radius: 5px;
+    color: #2b4ec2;
+}
+.latest-book-display
+{
+    display: flex;
+    flex-direction: row;
+}
+.latest-book-display a
+{
+    width : 100%;
+}
+.latest-book-display a:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+.latest-book-display a:focus
+{
+    text-decoration: none;
+}
+.latest-book-card
+{
+    margin-top: 50px;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    width:100%;
+}
+.latest-book-card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.latest-book-card-display
+{
+    display : flex;
+}
+.latest-book-img
+{
+    height : 150px;
+    width : 150px;
+}
+.latest-book-card-info-display
+{
+    flex-direction: row;
+}
+.latest-book-name
+{
+    font-family: 'Nunito', sans-serif;  
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    color : #506690;
+}
+
+.latest-book-rating-display
+{
+    display : flex;
+}
+.latest-book-rating
+{
+    padding-left: 14px;
+    padding-top: 15px;
+}
+.latest-book-rating-name
+{
+    margin-top : 14px;
+    margin-left : 15px;
+    padding-top : 2px;
+    width : 35px;
+    height : 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(29, 73, 218,0.1);
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+.latest-book-card-price
+{
+    padding-left: 20px;
+    padding-top: 0px;
+    color: #00bfc5;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.latest-book-card-strike
+{
+    padding-left: 10px;
+    color : grey;
+    font-size: 16px;
+    font-weight: normal;
+}

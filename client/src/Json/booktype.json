@@ -1,0 +1,40 @@
+{
+    "BookType" : [
+        {
+            "id":"1",
+            "BookTypeName":"Adventure",
+            "BookTypeAvailable":"6"
+        },
+        {
+            "id":"2",
+            "BookTypeName":"Technology",
+            "BookTypeAvailable":"6"
+        },
+        {
+            "id":"3",
+            "BookTypeName":"Science",
+            "BookTypeAvailable":"6"
+        },
+        {
+            "id":"4",
+            "BookTypeName":"Mystery",
+            "BookTypeAvailable":"6"
+        },
+        {
+            "id":"5",
+            "BookTypeName":"History",
+            "BookTypeAvailable":"6"
+        },
+        {
+            "id":"6",
+            "BookTypeName":"Children",
+            "BookTypeAvailable":"6"
+        }
+        ,
+        {
+            "id":"7",
+            "BookTypeName":"Economic",
+            "BookTypeAvailable":"6"
+        }
+    ]
+}

@@ -1,0 +1,398 @@
+.home-main
+{
+    margin-top: 60px;
+    animation: fadeInAnimation ease 1.8s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+/* Home Top Intro */
+
+/* .home-main-background
+{
+    margin-top : -260px;
+    background-color: #f1f4f8; 
+    background-image: url('../Images/home-book6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display : block;
+} */
+
+.home-main-background
+{
+    background-color: #f1f4f8;
+}
+.home-wave
+{
+    margin-top : -265px;
+}
+.home-top-heading
+{
+    padding-left: 10px;
+    padding-top : 85px;
+    font-size: 40px;
+    color : rgb(80, 78, 78);
+}
+.home-top-heading-sub-color
+{
+    color : #335eea;
+}
+.home-top-quote
+{
+    width : 100%;
+    font-family: 'Nunito', sans-serif;  
+    padding-left: 10px;
+    padding-top : 20px;
+    color : rgb(66, 65, 65);
+    font-size: 20px;
+}
+.home-top-para
+{
+    width : 100%;
+    line-height: 190%;
+    font-family: 'Nunito', sans-serif;  
+    padding-left: 10px;
+    padding-top : 25px;
+    color : rgb(97, 96, 96);
+    font-size: 16px;
+}
+.home-top-link
+{
+    margin-top : 10px;
+    font-family: 'Nunito', sans-serif;  
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top : 25px;
+    color : rgb(46, 45, 45);
+}
+.home-top-link a
+{
+    margin-top : 20px;
+    margin-left: 5px;
+    padding-top: 12px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 7px;
+    /* background-color: #335eea; */
+    background-color: white;
+    text-align: center;
+    height : 45px;
+    width : 160px;
+    color : #335eea;
+    margin-bottom: 70px;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.home-top-link a:hover
+{
+    text-decoration: none;
+    background-color: white;
+    color : #335eea;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+@media(max-width:1010px)
+{
+    .home-main-background{background-image: none;margin-top:70px}
+    .home-top-link a{margin-bottom: 0px;}
+    .home-top-heading{padding-top:100px}
+    .home-wave{display: none;}
+    .home-top-link a{background-color: #335eea; color: white;}
+}
+.home-top-link .arrow-span
+{
+    padding-left: 4px;
+}
+
+
+/* Home Card Heading CSS */
+
+.home-heading
+{
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.home-subheading
+{
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.home-product-btn
+{
+    margin-top: 40px;
+    width : 80%;
+    height : 40px;
+    padding-top: 8px;
+    color : #335eea;
+    text-align: center;
+    background-color: rgba(51,94,234,.1);;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    border-radius: 40px;
+}
+.home-product-btn-active
+{
+    margin-top: 40px;
+    width : 80%;
+    height : 40px;
+    padding-top: 8px;
+    color : whitesmoke;
+    text-align: center;
+    background-color: #335eea;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.home-product-btn:hover
+{
+    cursor: pointer;
+    background-color: #335eea;
+    color: whitesmoke;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+
+
+/* Home Discount Information css */
+
+.home-discount-back-color
+{
+    margin-top : 100px;
+    background-color: #1b2a4e;
+    /* border-radius: 23px 86px; */
+    border-radius: 100%/0px 0px 120px 120px;
+}
+@media(max-width:440px)
+{
+    .home-discount-back-color{border-radius: 100%/0px 0px 75px 75px;}
+}
+.home-discount-heading1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color : whitesmoke;
+    padding-top : 60px;
+    padding-left : 80px;
+}
+.home-point-display
+{
+    display: flex;
+}
+.home-discount-point
+{
+    margin-left: 80px;
+    margin-top : 30px;
+    background-color : #42ba96;
+    border-radius: 50%;
+    width : 25px;
+    height : 25px;
+    padding-top : 2px;
+    text-align: center;
+    color : whitesmoke;
+}
+.home-discount-subheading
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color : whitesmoke;
+    padding-top: 31px;
+    padding-left: 14px;
+}
+.home-discount-para
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : #8db0f5;
+    padding-left: 120px;
+    padding-top:20px;
+    line-height: 200%;
+}
+.home-discount-heading2
+{
+    padding-top : 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    color : whitesmoke;
+    text-align: center;
+}
+.home-discount-display
+{
+    text-align : center
+}
+.home-discount-btn
+{
+    display: inline-block;
+    background-color: #42ba96;
+    margin-top : 40px;
+    width : 150px;
+    height : 40px;
+    padding-top: 8px;
+    border : none;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color : white;
+    text-align: center;
+}
+.home-discount-btn .arrow-span
+{
+    padding-left: 4px;
+    font-size: 17px;
+}
+.home-discount-btn:hover
+{
+    text-decoration: none;
+    color : white;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+
+@media(max-width : 440px)
+{
+    .home-discount-heading1{padding-left: 10px;}
+    .home-discount-point{margin-left: 10px;}
+    .home-discount-para{padding-left: 49px;}
+}
+
+
+/* Shipping Information */
+
+.home-shipping-back-color
+{
+    margin-top : 100px;
+    background-color: #1b2a4e;
+    /* border-radius: 50px 50px; */
+    border-radius: 100%/0px 0px 120px 120px;
+}
+
+.home-shipping-icon
+{
+    color : #42ba96;
+    margin-left: 155px;
+}
+@media(max-width:440px)
+{
+    .home-shipping-icon{margin-left: 10px !important;}
+}
+@media(max-width:1100px)
+{
+    .home-shipping-icon{margin-left: 110px;}
+}
+@media(max-width:800px)
+{
+    .home-shipping-icon{margin-right: auto;}
+}
+.home-sipping-name
+{
+    font-family: 'Nunito', sans-serif;
+    padding-top:15px;
+    text-align: center;
+    font-size: 24px;
+    color : white;
+}
+
+.home-shipping-name-info
+{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 4px;
+    padding-top : 20px;
+    line-height: 180%;
+    word-spacing: 2px;
+    font-size: 14px;
+    color : #8db0f5;
+}
+@media(max-width:440px)
+{
+    .home-sipping-name{text-align: left;padding-left: 10px;}
+    .home-shipping-name-info{padding-left: 10px;}
+}
+.home-product-member-heading
+{
+    padding-top: 90px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color : white;
+}
+.home-product-member-subheading
+{
+    padding-top: 22px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color : white;
+}
+.home-product-member-para
+{
+    padding-top: 26px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color : #8db0f5;
+}
+.home-product-member-text
+{
+    margin-top: 45px;
+    display: flex;  
+}
+.home-product-member-textfiled
+{
+    height : 50px;
+    width: 100%;
+    border:2px solid rgb(228, 225, 225);
+    display: inline-block;
+    margin : 0 auto;
+    border-radius : 4px;
+    padding-left: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+.home-product-member-textfiled:hover
+{
+    border-color: #42ba96;
+}
+.home-product-member-textfiled:focus
+{
+    border-color: #42ba96;
+    outline : none;
+}
+.home-product-member-btn
+{
+    margin-left: 5px;
+    border-radius: 4px;
+    border : none;
+    background-color: #42ba96;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color : white;
+    width : 180px;
+    height : 50px;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+
+}
+.home-product-member-btn:hover
+{
+    background-color: #38a081;
+    color : white;
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    transition: all 0.9s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}

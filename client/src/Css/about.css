@@ -1,0 +1,130 @@
+.about-main
+{
+    margin-top : 100px;
+    margin-bottom: 80px;
+}
+
+/* about Breadcrum Head CSS */
+
+.about-head-bread
+{
+    overflow: hidden;
+}
+.about-bread-heading
+{
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+}
+@media(max-width:440px)
+{
+    .about-bread-heading{padding-top:6px;}
+}
+.about-bread-para-display
+{
+    padding-top: 20px;
+    display : flex;
+    align-items: left;
+    justify-content: left;
+}
+.about-bread-icon
+{
+    color : rgb(73, 71, 71);
+}
+.about-bread-icon2
+{
+    padding-left: 10px;
+    color : rgb(73, 71, 71);
+}
+.about-bread-para
+{
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.about-bread-para a
+{
+    display : inline-block;
+    color : black;
+}
+.about-bread-para a:hover
+{
+    text-decoration: none;
+    color: #335eea;
+}
+.about-bread-para a:focus
+{
+    text-decoration: none;
+}
+.about-bread-split
+{
+    padding-top: 2px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(194, 189, 189);
+}
+.about-bread-para2
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#335eea;
+}
+
+/* About Content */
+
+.about-main-heading
+{
+    margin-top:50px;
+    color : #0E054D;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:40px;
+    text-align: center;
+}
+.about-main-heading-hr
+{
+    border-top : 5px solid blue;
+    width : 100px;
+}
+.about-main-para
+{
+    font-family: 'Nunito', sans-serif;
+    font-size : 16px;
+    word-spacing: 3px;
+    line-height: 200%;
+    color:#112257;
+    padding-top : 20px;
+    padding-left : 20px;
+}
+.about-contact-button
+{
+    margin-top : 25px;
+    margin-left : 20px;
+    border : 2px solid #0E054D;
+    border-radius: 7px;
+    color : #0E054D;
+    width : 170px;
+    height : 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+.about-contact-button:hover
+{
+    background-color: #0E054D;
+    color : white;
+    transition: all 0.6s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    box-shadow: 0 3px 4px rgba(66, 4, 117, 0.16), 0 3px 4px rgba(23, 6, 117, 0.23);
+}
+.about-contact-button:focus
+{
+    outline : none;
+}

@@ -1,0 +1,205 @@
+.sign-main
+{
+    margin-top: 0px;
+}
+.sign-column-background
+{
+    background-color: rgb(250, 251, 253);
+}
+.sign-container
+{
+    margin-top:45px;
+    width : 100%;
+}
+.sign-icon-combine
+{
+    padding-top: 40px;
+    display: flex;
+}
+.sign-icon-combine .sign-logo
+{
+    width : 10%;
+    height : 40px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.sign-icon-combine .sign-name-image
+{
+    padding-top: 9.6px;
+    padding-left: 9px;
+    font-size: 17px;
+    color : #335eea;
+    font-family: 'Nunito', sans-serif;
+}
+.sign-left-heading
+{
+    padding-left: 6px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    color : rgb(54, 53, 53);
+    padding-top : 23px;
+}
+.sign-left-subheading
+{
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color : rgb(78, 78, 78);
+    padding-top : 16px;
+}
+.sign-left-image
+{
+    margin-top:35px;
+    margin-left : -60px;
+}
+@media(max-width:1000px)
+{
+    .sign-left-image{display: none;}
+}
+.sign-heading
+{    
+    padding-top: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color : rgb(66, 66, 66);
+}
+.sign-para
+{
+    padding-top: 18px;
+    font-family: 'Nunito', sans-serif;
+    color : rgb(177, 173, 173);
+    font-size: 14px;
+    text-align: center;
+}
+.sign-hr
+{
+    border-top : 5px solid #335eea;
+    width : 25%;
+}
+.sign-input-label
+{
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 13px;
+    font-size: 17px;
+}
+.sign-input
+{
+    margin-top : 10px;
+    margin-left: 10px;
+    height : 47px;
+    width : 95%;
+    color : rgb(19, 12, 59);
+    font-size: 13px;
+    border : none;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: 2px solid rgb(212, 209, 209);
+    font-family: 'Nunito', sans-serif;
+}
+.sign-input::placeholder
+{
+    color : rgb(139, 137, 137);
+}
+.sign-input:focus
+{
+    outline : none;
+    border: 2px solid #335eea;
+}
+@media(max-width : 440px)
+{
+    .sign-heading{text-align: left;padding-left: 10px;}
+    .sign-hr{margin : 0;margin-top:8px;margin-left: 13px;margin-bottom: 25px;}
+    .sign-container{margin-top : 40px}
+}
+.sign-btn
+{
+    margin-top: 40px;
+    height : 40px;
+    border : none;
+    border-radius: 10px;
+    width : 95%;
+    margin-left : 10px;
+    background-color: #335eea;
+    color : whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.sign-btn:hover
+{
+    outline : none;
+    background-color:#118bbb;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.sign-btn:focus
+{
+    outline : none;
+}
+.sign-login-account
+{
+    padding-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : rgb(117, 116, 116);
+    text-align: center;
+}
+.sign-login-account a
+{
+    display: inline-block;
+    color : #335eea;
+}
+.sign-input-error
+{
+	margin-top: 4px;
+	height : 10px;
+	width : 355px;
+	margin-left: 10px;
+	color : rgb(241, 74, 74);
+    font-size: 12px;
+    padding-left: 3px;
+}
+.hideme-sign
+{
+    color : rgb(241, 74, 74);
+}
+
+/* Success Message */
+
+.signup-success-container
+{
+    background-color: #42ba96;
+    height : 40px;
+    margin-top : 20px;
+    margin-left: 10px;
+    width : 95%;
+    border-radius: 6px;
+}
+.signup-success-name
+{
+    padding-top : 9px;
+    padding-left: 6px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color : white;
+}
+.signup-success-container a
+{
+    color : darkgreen;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.signup-success-container a:hover
+{
+    color : darkgreen;
+}
+

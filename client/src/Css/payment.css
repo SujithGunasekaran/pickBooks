@@ -1,0 +1,208 @@
+.final-payment-icon-combine
+{
+    margin-top: 25px;
+    display: flex;
+}
+.final-payment-icon-combine .final-payment-logo
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.final-payment-icon-combine .final-payment-logo2
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    margin-left : 12px;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.final-payment-icon-combine .final-payment-logo3
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    margin-left : 12px;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.final-payment-icon-combine .final-payment-name-image
+{
+    padding-top: 4px;
+    padding-left: 9px;
+    font-size: 15px;
+    color : #506690;
+    font-family: 'Nunito', sans-serif;
+}
+@media(max-width:440px)
+{
+    .final-payment-icon-combine .final-payment-logo
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .final-payment-icon-combine .final-payment-logo2
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .final-payment-icon-combine .final-payment-logo3
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .final-payment-icon-combine .final-payment-name-image
+    {
+        padding-top: 4px;
+    }
+}
+.payment-shipping-icon-right
+{
+    padding-top : 4px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #335eea;
+    font-weight: bolder;
+}
+
+/* Payment Method CSS */
+
+.final-payment-mode-container
+{
+    margin-top : 60px;
+}
+.final-payment-mode-name
+{
+    font-family: 'Nunito', sans-serif;
+    color: #335eea;
+    padding-left: 8px;
+    font-size: 15px;
+    width : 200px;
+}
+.final-payment-mode-radio:hover
+{
+    cursor: pointer;
+}
+.final-payment-mode-radio-label
+{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 7px;
+}
+@media(max-width:440px)
+{
+    .final-payment-mode-name{padding-left: 0px;}
+    .final-payment-mode-radio-label{margin-top : 20px;}
+}
+@media(max-width:800px)
+{
+    .final-payment-mode-name{padding-left: 0px;}
+    .final-payment-mode-radio-label{margin-top : 20px;}
+}
+
+/* Bank Details CSS */
+
+.bank-container
+{
+    margin-top : 45px;
+    width : 100%;
+}
+.bank-heading
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color : #545557;
+    padding-top : 15px;
+    padding-left: 10px;
+}
+.bank-label-name
+{
+    padding-top : 25px;
+    padding-left: 10px;
+    margin-top : 10px;
+    font-family: 'Nunito', sans-serif;
+    color : #545557;
+    font-size: 16px;
+}
+.bank-textfield
+{
+    width : 100%;
+    height : 45px;
+    margin-top:19px;
+    margin-left : 7px;
+    padding-left: 10px;
+    color : rgb(54, 53, 53);
+    border-radius: 6px;
+    font-family: 'Nunito', sans-serif;
+    border : 1px solid rgb(217, 217, 217);
+}
+.bank-textfield:hover
+{
+    border-color: #aec0f8;
+}
+.bank-textfield:focus
+{
+    outline:none;
+    /* border-color: #335eea; */
+    border : 2px solid #335eea;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.bank-next-btn
+{
+    width : 170px;
+    height : 44px;
+    margin-top:45px;
+    font-family: 'Nunito', sans-serif;
+    font-size : 16px;
+    border:none;
+    border-radius: 5px;
+    background-color: #335eea;
+    color : whitesmoke;
+    float : right;
+}
+.bank-next-btn:hover
+{
+    cursor: pointer;
+    background-color: #2542a1;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    box-shadow: 0 3px 6px rgba(66, 4, 117, 0.16), 0 3px 6px rgba(23, 6, 117, 0.23);
+}
+.bank-next-btn:focus
+{
+    outline : none;
+}
+.bank-row-margin
+{
+    margin-top : 15px;
+}
+@media(max-width:440px)
+{
+    .bank-row-margin{margin-top : 0px}
+}
+@media(max-width:800px)
+{
+    .bank-row-margin{margin-top : 0px}
+}
+

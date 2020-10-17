@@ -1,0 +1,139 @@
+.address-main
+{
+    margin-top: 20px;
+    animation: fadeInAnimation ease 0.6s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+.address-icon-combine
+{
+    margin-top : 25px;
+    display: flex;
+}
+.address-icon-combine .address-logo
+{
+    width : 5%;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #335eea;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+    color : whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+.address-icon-combine .address-name-image
+{
+    padding-top: 4px;
+    padding-left: 9px;
+    font-size: 15px;
+    color : #506690;
+    font-family: 'Nunito', sans-serif;
+}
+@media(max-width:440px)
+{
+    .address-icon-combine .address-logo
+    {
+        width : 7%;
+        height : 27px;
+    }
+    .address-icon-combine .address-name-image
+    {
+        padding-top: 4px;
+    }
+}
+.address-form-container
+{
+    width:100%;
+}
+
+/* Address Contact CSS */
+
+.address-contact-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(71, 69, 69);
+    padding-top:40px;
+}
+.address-contact-textfield1
+{
+    width : 100%;
+    height : 45px;
+    margin-top:19px;
+    padding-left: 10px;
+    color : rgb(54, 53, 53);
+    border-radius: 6px;
+    font-family: 'Nunito', sans-serif;
+    border : 1px solid rgb(217, 217, 217);
+}
+.address-contact-textfield1:hover
+{
+    border-color: #aec0f8;
+}
+.address-contact-textfield1:focus
+{
+    outline:none;
+    /* border-color: #335eea; */
+    border : 2px solid #335eea;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+/* Address Shipping Css */
+
+.address-shipping-name
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color : rgb(71, 69, 69);
+    padding-top:30px;
+}
+.address-shipping-textfield
+{
+    width : 100%;
+    height : 45px;
+    margin-top:19px;
+    padding-left: 10px;
+    color : rgb(54, 53, 53);
+    border-radius: 6px;
+    font-family: 'Nunito', sans-serif;
+    border : 1px solid rgb(217, 217, 217);
+}
+.address-shipping-textfield:hover
+{
+    border-color: #aec0f8;
+}
+.address-shipping-textfield:focus
+{
+    outline:none;
+    /* border-color: #335eea; */
+    border : 2px solid #335eea;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+.address-shipping-input-error
+{
+	margin-top: 4px;
+	height : 4px;
+	width : 355px;
+	margin-left: 5px;
+	color : rgb(238, 93, 93);
+	font-size: 11px;
+}
+.address-shipping-hideme-login
+{
+    color : rgb(238, 93, 93);
+}

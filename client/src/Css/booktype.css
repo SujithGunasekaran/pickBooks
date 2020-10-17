@@ -1,0 +1,80 @@
+.book-type-ul
+{
+    list-style: none;
+    margin-top : 10px;
+    height : 40px;
+    padding-top : 5px;
+}
+.book-type-ul:hover
+{
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color:#335eea;
+}
+.book-type-ul a:hover
+{
+    text-decoration: none;
+    color : #506690;
+}
+.book-type-ul a:focus
+{
+    text-decoration: none;
+}
+.book-type.ul-active li
+{
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color:#33AFE0;
+}
+.book-type-ul li
+{
+    padding-top : 9px;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    color : grey;
+    font-size: 15px;
+    margin-left : -35px;
+    height : 40px;
+}
+.book-type-ul li a
+{
+    color : #506690;
+}
+.book-type-ul li a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    color:#335eea;
+}
+.book-type-ul li a:focus
+{
+    text-decoration: none;
+}
+.book-type-ul li:hover
+{
+    cursor: pointer;
+    background-color: #d8e3f1; 
+    color:#335eea;
+    border-radius: 20px;
+}
+.book-type-ul li:hover .book-type-li-number
+{
+    background-color: #1197cc;
+    color: whitesmoke;
+}
+.book-type-li-number
+{
+    margin-top : -4px;
+    border-radius: 50%;
+    padding-top : 5px;
+    margin-right: 5px;
+    text-align: center;
+    width : 30px;
+    height : 29px;
+    background-color: #d8e3f1; 
+    color : #506690;
+    float : right;
+    font-family: 'Nunito', sans-serif;
+}
