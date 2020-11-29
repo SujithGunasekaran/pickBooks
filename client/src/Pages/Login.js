@@ -6,7 +6,8 @@ import Avatar from '@material-ui/core/Avatar';
 import loginimage from '../Images/login.svg';
 
 
-
+// TODO #1 remove all console.log @SujithGunasekaran 
+// done!
 class Login extends Component
 {
     constructor(props)
@@ -92,9 +93,6 @@ class Login extends Component
             return <Redirect to="/"/>
         }
         document.title = "Login | Pick-Books";
-
-        console.log("hello")
-
         return(
             <div>
             <div className="login-main">
