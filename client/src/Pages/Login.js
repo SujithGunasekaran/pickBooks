@@ -92,6 +92,9 @@ class Login extends Component
             return <Redirect to="/"/>
         }
         document.title = "Login | Pick-Books";
+
+        console.log("hello")
+
         return(
             <div>
             <div className="login-main">
