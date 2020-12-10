@@ -19,7 +19,7 @@ https://pickbooks.herokuapp.com/
  
  -> To Start Server and client Please run below command
  
- # npm run dev
+ ### `npm run dev`
  
 
  # To start client and Server seperately
